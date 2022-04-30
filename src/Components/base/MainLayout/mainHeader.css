@@ -1,0 +1,117 @@
+.MainSection {
+    padding: 0;
+  }
+  
+  .hero {
+    padding: 0;
+  }  
+  /*
+  .hero.is-fullheight-with-navbar {
+    min-height: calc(100vh - 10.25rem);
+  }
+  */
+  .bg_video {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: -1000;
+  }
+  
+  .MainSection__header {
+    font-weight: 200;
+  }
+  
+  .call-button {
+    box-sizing: border-box;
+    width: 250px;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid #c19504;
+    color: #fff;
+    border-radius: 25px;
+    max-width: 100%;
+    letter-spacing: 2px;
+    background-color: transparent;
+    padding: 14px 10px;
+    margin: 20px auto;
+    /* transition: background 0.5s;  */
+  }
+  
+  .call-button:hover {
+    background: #bd991569;  
+  }
+  
+  .call-button-inner {
+    box-sizing: border-box; 
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+  
+  .MainSection__header .title.is-1 {
+    font-weight: 200 !important;
+    color: #fff;
+    line-height: 70px;
+    margin: 0.6vh 0;
+  }
+  
+  .title.is-4 {
+    color: #ffcf20;
+  }
+  
+  .MainSection__subtitle {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    line-height: 45px;
+    letter-spacing: 1px;
+    margin: 0 !important ;
+  }
+  
+  .MainSection__image {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .countdown_title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+  }
+  
+  .progressBar {
+    color: #fff
+  }
+  
+  .bonus-restantes {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 16px;
+    height: 50px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .bonus-restantes-qtd {
+    font-weight: 800;
+  }
+  
+  @media screen and (max-width: 1087px) {
+    .progressBar {
+      margin: 0 -25px !important;
+    }
+  
+    .bonus-restantes {
+      font-size: 10px;
+    }
+  
+    .hero.is-fullheight-with-navbar .hero-body, .hero.is-halfheight .hero-body {
+      align-items: unset;
+    }
+  }
+  

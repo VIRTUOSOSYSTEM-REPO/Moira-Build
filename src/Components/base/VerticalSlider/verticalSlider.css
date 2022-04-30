@@ -1,0 +1,43 @@
+.ExperiencesSection {
+    background: #f0e9dc;
+    padding: 160px 0;
+    min-height: calc(100vh - 320px);
+  }
+  
+  .ExperiencesSection h1 {
+    font-weight: 400 !important;
+    text-align: center;
+    line-height: 45px !important;
+    font-size: 30px !important;
+    margin: -1.5rem 0 2rem 0 !important;
+    color: #000;
+  }
+  
+  .button.is-rounded {
+    margin: 4px 0;
+  }
+  
+  .vertical-timeline-element-title {
+    font-weight: 800;
+  }
+  
+  .vertical-timeline-element-subtitle {
+    color: #e4b300;
+  }
+  
+  .vertical-timeline-element-content p {
+    font-size: 0.8rem !important;
+  }
+  
+  .vertical-timeline::before {
+    height: calc(100% - 16px) !important;
+  }
+  
+  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 35px;
+  }
+  
+  .react-images__positioner {
+    z-index: 3 !important;
+  }
